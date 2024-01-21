@@ -1,0 +1,55 @@
+import { vendors } from "./vendors";
+import { skilledWorkers } from "./skilledWorkers";
+
+export const payouts = [
+  {
+    status: "pending",
+    id: 636575,
+    dateCreated: new Date(2023, 8, 14),
+    dateDue: new Date(2023, 8, 24),
+    amount: 45345,
+    recipient: vendors[2],
+    accountNo: 56346578485,
+    bank: "First Bank",
+  },
+  {
+    status: "pending",
+    id: 4574575,
+    dateCreated: new Date(2023, 8, 9),
+    dateDue: new Date(2023, 8, 20),
+    amount: 57456,
+    recipient: skilledWorkers[5],
+    accountNo: 6346757657,
+    bank: "GT Bank",
+  },
+  {
+    status: "complete",
+    id: 7856756,
+    dateCreated: new Date(2023, 8, 12),
+    dateDue: new Date(2023, 8, 15),
+    amount: 363464,
+    recipient: vendors[6],
+    accountNo: 463465754,
+    bank: "Union Bank",
+  },
+  {
+    status: "complete",
+    id: 3654755,
+    dateCreated: new Date(2023, 8, 19),
+    dateDue: new Date(2023, 8, 31),
+    amount: 545636,
+    recipient: skilledWorkers[8],
+    accountNo: 5463564463,
+    bank: "UBA",
+  },
+  {
+    status: "cancelled",
+    id: 2542355,
+    dateCreated: new Date(2023, 8, 10),
+    dateDue: new Date(2023, 8, 14),
+    amount: 45674577,
+    recipient: vendors[5],
+    accountNo: 45745745754,
+    bank: "FCMB",
+  },
+];
